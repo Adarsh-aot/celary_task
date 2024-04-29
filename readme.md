@@ -16,7 +16,7 @@ This project demonstrates how to process PDF files by splitting them into pages,
 git clone https://github.com/Adarsh-aot/quipo-oscar.git
 ```
 ```bash
-cd pdf-to-json
+cd quipo-oscar
 ```
 
 
