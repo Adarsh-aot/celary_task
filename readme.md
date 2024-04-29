@@ -32,22 +32,6 @@ python main.py
 ```
 
 
-Usage
-Running the PDF to JSON Conversion
-Place your PDF files in the pdf_files directory.
-Run the pdf_to_json.py script to process the PDF files:
-bash
-Copy code
-python pdf_to_json.py
-Output
-For each input PDF file (example.pdf), the script will:
-Split the PDF into individual pages (PNG images) stored in the output_images directory.
-Use the Donut Transformer model to extract data from each page and save the extracted data as example_page1.json, example_page2.json, etc. in the output_json directory.
-Configuration
-Customize the configuration settings (e.g., model parameters, output directories) in config.py before running the script.
-Requirements
-Python 3.x
-Donut Transformer model (pre-trained or custom)
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
