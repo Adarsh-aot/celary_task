@@ -54,4 +54,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - **License:** Information about the project's license (in this case, the MIT License) for users and contributors.
 
-You can customize this README.md template by replacing placeholders (e.g., `yourusernam
