@@ -1,4 +1,4 @@
-# quipo-oscar Donut Transformer
+#  Quipo-Oscar Donut Transformer
 
 This project demonstrates how to process PDF files by splitting them into pages, extracting data using a transformer model (Donut Transformer), and saving the extracted data as JSON files in the same directory as the original PDFs.
 
