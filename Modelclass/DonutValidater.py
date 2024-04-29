@@ -1,8 +1,10 @@
+import re
+
 class DonutValidater:
     def __init__(self):
         self.check = {
             "PHN": {
-                "length": 10
+                "pattern": r'^\d{10}$'  # This pattern matches a 10-digit number
             }
         }
 
@@ -20,8 +22,8 @@ class DonutValidater:
             if key not in data:
                 return False
 
-            if len(str(data[key])) != value["length"]:
+            # Use regular expression pattern matching
+            if not re.match(value["pattern"], str(data[key])):
                 return False
 
         return True
-
