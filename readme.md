@@ -42,9 +42,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   
 - **Installation:** Instructions for cloning the repository and installing the required Python packages using pip.
 
-- **Usage:** Detailed instructions on how to run the `pdf_to_json.py` script to process PDF files and convert them into JSON format. It includes information about input/output directories and running the script.
+- **Usage:** Detailed instructions on how to run the `main.py` script to process PDF files and convert them into JSON format. It includes information about input/output directories and running the script.
 
-- **Configuration:** Guidance on customizing configuration settings (e.g., model parameters, output directories) in the `config.py` file.
+- **Configuration:** Guidance on customizing configuration settings (e.g., model parameters, output directories)
 
 - **Requirements:** List of software requirements and dependencies needed to run the project, including Python version and Donut Transformer model.
 
