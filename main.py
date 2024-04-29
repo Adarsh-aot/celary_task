@@ -1,4 +1,4 @@
-from faxfile import FaxFile
+from Modelclass import FaxFile
 
 faxfile = FaxFile(r'C:\Users\aotir\donut\.pytorch_litning_wandb\collection_of_data_for_donut_training\Result_of_report_detail\brooke\10.761338622623596.pdf')
 faxfile.process_file()

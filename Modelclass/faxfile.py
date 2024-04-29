@@ -1,10 +1,10 @@
 from pathlib import Path as path
 import os
-from ImageProcesser import ImageProcessor
-from PdfProcessor import PdfProcessor
-from DonutProcessor import ModelProcessor
-from DonutValidater import DonutValidater
-from JsonWriter import JsonWriter
+from Modelclass.ImageProcessor import ImageProcessor
+from Modelclass.PdfProcessor import PdfProcessor
+from Modelclass.ModelProcessor import ModelProcessor
+from Modelclass.DonutValidater import DonutValidater
+from Modelclass.JsonWriter import JsonWriter
 
 
 class FaxFile:

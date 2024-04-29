@@ -8,7 +8,7 @@ import shutil
 
 class JsonWriter:
     """
-    A class to create a JSON file.
+    A module for creating JSON files.
     """
 
     @staticmethod
